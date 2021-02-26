@@ -17,6 +17,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application  # noqa (E402)
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "shuup_workbench.settings")  # noqa
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "shuup_workbench.settings.dev")  # noqa
 
 application = get_wsgi_application()
